@@ -1,0 +1,5 @@
+# Publish only what `files` in package.json whitelists; this is a belt-and-suspenders guard.
+.DS_Store
+*.log
+node_modules/
+PUBLISHING.md

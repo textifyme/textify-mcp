@@ -1,0 +1,42 @@
+{
+  "name": "@textifyme/mcp",
+  "version": "0.1.0",
+  "description": "Local (stdio) shim for the hosted Textify MCP server — transcribe audio/video, OCR images, and convert files & web pages to text from Claude, Cursor, and any MCP client.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "textify",
+    "transcription",
+    "speech-to-text",
+    "ocr",
+    "markdown",
+    "youtube-transcript",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://textify.me",
+  "bugs": {
+    "url": "https://github.com/textifyme/textify-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textifyme/textify-mcp.git"
+  },
+  "license": "MIT",
+  "author": "Textify",
+  "type": "module",
+  "bin": {
+    "textify-mcp": "bin/textify-mcp.mjs"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  }
+}
